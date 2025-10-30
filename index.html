@@ -1,41 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Portfolio</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' href='css/style.css'/>
-    <link rel="icon" type="image/png" href="Images/Logo.png" width="48" heigth="48">
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio - Eliameau Waldstein Esterlin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="Images/Logo.png" width="48" height="48">
+    <script src="main.js"></script>
 </head>
 
 <body>
 
- <header>
-   <nav class="navbar">
-     <img class="navbar__logo" src="Images/Logo.png" alt="Logo EWE" style="width: 80px;">
-     <div>
-       <a class="navbar__link navbar__link--purple" href="index.html">Accueil</a>
-       <a class="navbar__link" href="a-propos.html">À propos</a>
-       <a class="navbar__link" href="portfolio.html">Portfolio</a>
-     </div>
-   </nav>
- </header>
+    <header>
+        <nav class="navbar">
+            <img class="navbar__logo" src="Images/Logo.png" alt="Logo EWE" style="width: 80px;">
+            <div class="navbar__links">
+                <a class="navbar__link navbar__link--purple" href="index.html">Accueil</a>
+                <a class="navbar__link" href="a-propos.html">À propos</a>
+                <a class="navbar__link" href="portfolio.html">Portfolio</a>
+            </div>
+        </nav>
+    </header>
 
-<section class="intro">
-   <div >
-     <h1 class="intro__title">Eliameau Waldstein Esterlin Informaticien</h1>
-     <p class="intro__content">
-       Où <em class="intro__content--purple">professionalisme</em> s’allie avec <em class="intro__content--purple">passion</em>. Depuis
-       plus de 5 ans maintenant, j’exerce mon métier avec la passion
-       qui m’anime : capturer l’essence de chaque instant.
-     </p>
-   </div>
-   
-   <img class="intro__image" src="Images/Photo-1.jpg" style="width: 700px;" alt="Portrait avec effet de la photographe Robbie Lens" />
-</section>
+    <section class="intro">
+        <div>
+            <h1 class="intro__title">Eliameau Waldstein Esterlin Informaticien</h1>
+            <h2>Développeur full-stack avec expérience de plus de 4 ans et orientation Data + Cloud</h2>
+            <p>
+                Compétences approfondies en ASP.NET, Spring Boot, SQL Server,JavaScript et MySQL. Actuellement orienté vers la Data et le Cloud
+                pour renforcer les compétences en pipelines de données, bases distribuées et architectures cloud.
+            </p>
+            <p class="intro__content">
+                Où <em class="intro__content--purple">professionalisme</em> s’allie avec <em class="intro__content--purple">passion</em>.
+                Depuis plus de 5 ans, j’exerce mon métier avec la passion qui m’anime.
+            </p>
+        </div>
+        <img class="intro__image" src="Images/Photo-1.jpg" alt="Portrait" />
+    </section>
+
+    <!-- Résumé -->
+    <div class="section">
+        <h2>Résumé</h2>
+        <p>
+            Développeur Full-Stack avec 4 ans d’expérience professionnelle en développement logiciel et bases de données.
+            Compétences approfondies en ASP.NET, Spring Boot,JavaScript,Ionic,Angular, SQL Server et MySQL. Actuellement orienté vers la Data et le Cloud.
+        </p>
+    </div>
+
+    <!-- Compétences techniques -->
+    <div class="section">
+        <h2>Compétences techniques</h2>
+
+        <h3>Web / Front-end :</h3>
+        <ul>
+            <li>HTML, CSS, jQuery, Razor, Thymeleaf,JavaScript,jQuery,Ionic</li>
+        </ul>
+
+        <h3>Back-end / Frameworks :</h3>
+        <ul>
+            <li>Spring Boot, ASP.NET MVC, ASP.NET Core</li>
+        </ul>
+
+        <h3>Bases de données :</h3>
+        <ul>
+            <li>SQL Server, MySQL, Oracle, SQLite</li>
+            <li>Compétences de base en DB2</li>
+            <li>Hibernate, Entity Framework</li>
+        </ul>
+
+        <h3>Data & Traitement :</h3>
+        <ul>
+            <li>Générer des Fichiers XML,CSV,JSON de ASP </li>
+            <li>Lecture et traitement de fichiers XML dans ASP.NET et SQL Server</li>
+            <li>Traitement et transformation de fichiers texte en données exploitables via ASP.NET Core</li>
+        </ul>
+
+        <h3>Visualisation & Reporting :</h3>
+        <ul>
+            <li>Google Chart, XML pour dashboards,RDLC et reporting</li>
+        </ul>
+    </div>
+
+    <!-- Projets -->
+    <div class="section">
+        <h2>Projets</h2>
+
+        <div class="project">
+            <h3>1. Import & Transformation de fichiers texte</h3>
+            <p><strong>Technologies :</strong> ASP MVC 3,ASP.NET Core,Sprint Boot, SQL Server</p>
+            <p><strong>Description :</strong> Lecture de fichiers texte bruts et transformation pour insertion dans la base de données exploitable pour reporting</p>
+            <p><strong>Résultat :</strong> Automatisation complète, réduction du temps de traitement manuel de 80%</p>
+            <p>Création et mettre à jour des applications Web de Zéro à la Production</p>
+        </div>
+
+        <div class="project">
+            <h3>2. Gestion de données XML dans SQL Server</h3>
+            <p><strong>Technologies :</strong> ASP.NET, SQL Server, XML</p>
+            <p><strong>Description :</strong> Lecture et extraction des données XML pour intégration dans base SQL Server</p>
+            <p><strong>Résultat :</strong> Création d’un workflow fiable pour importer et analyser des données XML</p>
+        </div>
+
+        <div class="project">
+            <h3>3. Dashboard et visualisation de données</h3>
+            <p><strong>Technologies :</strong> Google Chart, SQL Server, ASP.NET MVC</p>
+            <p><strong>Description :</strong> Création de dashboards interactifs pour visualiser les données clients et performances</p>
+            <p><strong>Résultat :</strong> Tableau de bord fonctionnel pour suivi en temps réel des métriques importantes</p>
+        </div>
+    </div>
+
+    <!-- Langues -->
+    <div class="section">
+        <h2>Langues</h2>
+        <ul>
+            <li>Français : natif</li>
+            <li>Anglais : niveau intermédiaire</li>
+        </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="section">
+        <h2>Contact</h2>
+        <ul>
+            <li>Email : esterlin.waldstein@example.com</li>
+            <li>GitHub </li>
+        </ul>
+    </div>
+
 </body>
 
 </html>
