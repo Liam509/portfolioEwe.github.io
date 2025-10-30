@@ -2,7 +2,7 @@
 // Le but de cet exercice est de changer la couleur de l'ombre grâce à la fonction mix.
 
 // Variables
-$main-color: #1f2039;
+$main-color: #020202;
 $title-color: #a5b4fc;
 $dark-purple: #1d0221;
 
@@ -11,7 +11,7 @@ $dark-purple: #1d0221;
 @mixin title-shadow {
     // Pour utiliser la fonction mix, il vous faut l'appeler comme suit: mix()
     // Mix prend en paramètre les couleurs que vous souhaitez mixer, ou mélanger, suivi de $weight, la quantité de couleur 1 ou 2 vous souhaitez mixer. Plus le mombre sera élevé, plus vous aurez de couleur 1, au contraire plus vous aurez de couleur 2.
-    text-shadow: .50rem .50rem mix($title-color, $dark-purple, 40%);
+   // text-shadow: .50rem .50rem mix($title-color, $dark-purple, 40%);
 }
 
 body {
@@ -84,7 +84,7 @@ header {
   }
     .navbar__link {
         margin-left: 30px;
-        color: #242424;
+        color: #ffffff;
         text-decoration: none;
 
         &--color {
